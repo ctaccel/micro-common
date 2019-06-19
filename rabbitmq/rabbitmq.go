@@ -3,12 +3,13 @@ package rabbitmq
 
 import (
 	"context"
-	"ctaccel.com/micro/common/log"
 	"errors"
 	"fmt"
-	"go.uber.org/zap"
 	"sync"
 	"time"
+
+	"github.com/ctaccel/micro-common/log"
+	"go.uber.org/zap"
 
 	"github.com/micro/go-micro/broker"
 	"github.com/streadway/amqp"
